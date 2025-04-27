@@ -9,7 +9,7 @@ exports.getProfessors = async (req, res) => {
       email: professor.email,
       profilePicture: professor.profilePicture,
       role: professor.role,
-      courses: professor.courses || [],  // Assuming the courses are available in the professor's data
+      courses: professor.courses || [],  
       __v: professor.__v
     }));
 
