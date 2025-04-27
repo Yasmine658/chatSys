@@ -17,9 +17,8 @@ const LoginPage = () => {
       loginUser(res.data.user);
       navigate('/chat');
     } catch (error) {
-      // Redirect to SignUp page if login fails (invalid credentials)
       alert('Login failed! Redirecting to SignUp...');
-      navigate('/signup');  // Redirect to SignUp page on failure
+      navigate('/signup');  
     }
   };
 
