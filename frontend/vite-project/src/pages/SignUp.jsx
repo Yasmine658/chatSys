@@ -16,7 +16,7 @@ const SignUp = () => {
     try {
       await axios.post('http://localhost:5000/api/auth/register', formData);
       alert('Registration successful! Redirecting to login...');
-      navigate('/login');  // Redirect to login page after successful registration
+      navigate('/login');  
     } catch (err) {
       console.error(err);
       alert('Registration failed! Please try again.');
