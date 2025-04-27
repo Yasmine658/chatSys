@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+.professor-profile {
+    padding: 20px;
+  }
+  
+  .back-button {
+    background-color: #0044cc;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #003399;
+  }
+  
+  .profile-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .course-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-list li {
+    padding: 4px 0;
+  }
+  /* Add this to your CSS file */
+.professor-list {
+    padding: 1rem;
+  }
+  
+  .professor-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
+  
+  .professor-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .professor-avatar {
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+  }
+  
+  .professor-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .professor-name {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .professor-fullname {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+  }
